@@ -26,7 +26,7 @@ pip3 install -r requirements.txt
 Vhodné je si knihovny nainstalovat do předem vytvořeného virtuálního prosředí. 
 
 ### Spouštění skriptu 
-Ve složce, kde je dostupný soubor "Election_Scraper.py", je třeba si otevřít příkazovou řádku. Pro spuštění skriptu a stažení souboru (na uvedeném příkladě Benešova) zadáme:
+Ve složce, kde je dostupný soubor "Election_Scraper.py", je třeba si otevřít příkazovou řádku. Pro spuštění skriptu a stažení souboru (na uvedeném příkladě pro územní celek Benešov) zadáme:
 
 python Election_Scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "volby_Benesov.csv"
 
