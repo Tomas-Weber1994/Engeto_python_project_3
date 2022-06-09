@@ -31,6 +31,4 @@ Ve složce, kde je dostupný soubor "Election_Scraper.py", je třeba si otevří
 python Election_Scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "volby_Benesov.csv"
 
 Pokud uživatel nezadá argumenty nebo zadá jejich nesprávný počet, je upozorněn a program končí. Pokud není vložené URL validní, zobrazí se taktéž upozornění. 
-
-
-
+V repozitáři je dostupný soubor ve tvaru csv, který je stažen při spouštění skriptu s výše uvedenými příklady argumentů. 
