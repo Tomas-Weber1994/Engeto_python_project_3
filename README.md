@@ -2,7 +2,7 @@
 
 Výsledky voleb do Poslanecké sněmovny Parlamentu České republiky.
 
-### Zadání 
+### Popis projektu 
 Úkolem bylo vytvořit scraper výsledků voleb z roku 2017, který vytáhne data přímo z webu: https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ
 
 Skript má za úkol scrapovat výsledky voleb pro jakýkoliv územní celek, který si užovatel zvolí. Volbu územního celku provede uživatel v rámci výše uvedeného webu  pomocí "X" ve sloupci výběr obce. Program následně pracuje s daným URL.  Např. "X" u územního celku Benešov odkazuje na web: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101
