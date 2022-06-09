@@ -21,5 +21,11 @@ Výskedný soubor se spouští pomocí  příkazové řádky a 2 argumentů. Prv
 ### Instalace knihoven 
 Pro funkčnost kódu je nutné si nainstalovat použité knihovny. Ty jsou dostupné v rámci souboru "requirements.txt", který je dostupný v repozitáři. Knihovny doporučuji instalovat do virtuálního prostředí. 
 
+### Spouštění kódu 
+Je třeba si otevřít příkazovou řádku v dané složce, ve které je skript dostupný. Do příkazové řádky (na uvedeném příkladě Benešova) zadáme: 
+python Election_Scraper.py "https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101" "volby_Benesov.csv"
+
+Pokud uživatel nezadá argumenty nebo zadá jejich nesprávný počet, je upozorněn a program končí. Pokud není vložené URL validní, zobrazí se taktéž upozornění. 
+
 
 
